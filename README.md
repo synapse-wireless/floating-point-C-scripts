@@ -1,2 +1,2 @@
 # floating-point-C-scripts
-Add floating point ability since snappy by default can't handle it right now.
+IAR can handle floating point in C, while SNAPpy cannot.  There may be times where you may want to pass a floating point number back up to a SNAPpy function and then pass it to another C function later.  This example shows how this can be done using SNAPpy string buffers as a data buffer to hold the float as binary data (not "3.14159", but using memcpy() to write the float to the uint8_t *, and just treat it as a buffer to carry the float around.
