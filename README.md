@@ -8,4 +8,4 @@ IAR can handle floating point in C, while SNAPpy cannot.  There may be times whe
 
 Copyright © 2016 [Synapse Wireless](http://www.synapse-wireless.com/), licensed under the [Apache License v2.0](LICENSE.md).
 
-<!-- meta-tags: vvv-atmega, vvv-Mmath, vvv-python, vvv-c, vvv-snappy, vvv-example -->
+<!-- meta-tags: vvv-atmega, vvv-math, vvv-python, vvv-c, vvv-snappy, vvv-example -->
