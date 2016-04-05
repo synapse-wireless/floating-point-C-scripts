@@ -38,7 +38,7 @@ hand floating type variables back and forth between SNAPpy and C.
 
 '''
 
-import_c("floatoing_point.c")
+import_c("floating_point.c")
 
 float_buf1 = "     "
 float_buf2 = "     "
@@ -93,4 +93,4 @@ def int_to_float_addition_test():
     
     add(temp, temp2, temp3)
     return float_buffer_to_int(temp3)
-    
+
